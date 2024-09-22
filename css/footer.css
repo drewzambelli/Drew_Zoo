@@ -1,0 +1,43 @@
+
+/* Footer and Link/Button Styles */
+/*Used across the whole site*/
+footer {
+    background-color: #4169E1;
+    padding: 40px;
+    color: white;
+    position: relative;
+    bottom: 0;
+    border-top: 5px solid #fa8072; 
+  }
+  
+  .container {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center; 
+  }
+  
+  a.back-button {
+    text-decoration: none;
+    color: white;
+    background-color: #fa8072;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  
+  a.back-button:hover {
+    background-color: #f08080;
+    transform: scale(1.1);
+  }
+  
+  .footer-buttons {
+    display: flex; 
+    justify-content: space-between; 
+    margin-bottom: 20px; 
+  }
+  
+  .footer-buttons a {
+    flex: 1;
+    margin: 0 10px; 
+  }

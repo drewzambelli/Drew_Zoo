@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Drew's Zoo</title>
     <link rel="stylesheet" type="text/css" href="css/index.css">
+    <!--Footer Styling-->
+    <link rel="stylesheet" type="text/css" href="css/footer.css">
 </head>
 <body>
     <header>
@@ -39,8 +41,16 @@
         </section>
     </main>
 
-    <footer>
-        <p>&copy; 2024 Drew's Zoo. All rights reserved.</p>
+    <footer> 
+        <!--Added div because I was having problem getting the footer width to match that of header-->
+        <div class="container">
+            <p>&copy; 2024 Drew's Zoo. All rights reserved.</p>
+            <div class="footer-buttons">
+                <a href="stiehelp.html" class="back-button">Site Help</a>
+                <a href="contact.html" class="back-button">Contact</a>
+            </div>
+            <a href="index.html" class="back-button">Back to Main Page</a>
+        </div>
     </footer>
 </body>
 </html>
