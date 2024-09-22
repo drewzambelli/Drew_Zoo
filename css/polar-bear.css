@@ -1,5 +1,115 @@
+/* General body settings */
 body {
-  font-family: Courier New;
-  background-color: silver;
+  font-family: 'Poppins', sans-serif;
+  background-color: #fa8072;
+  color: #000;
+  margin: 0;
+  padding: 0;
   text-align: center;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Header */
+header {
+  background-color: #4169E1;
+  padding: 20px;
+  color: #fff;
+}
+
+.subtitle {
+  font-size: 20px;
+  color: white;
+  margin-top: -15px;
+  margin-bottom: 10px;
+}
+
+/* Main  */
+main {
+  flex: 1; 
+  padding-bottom: 20px; 
+}
+
+h1 {
+  font-size: 36px;
+  margin: 0;
+}
+
+/* Image Styles */
+img {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  margin-top: 20px;
+  border: 5px solid #4169E1;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.5s ease; 
+  transform-origin: top; /* TOP solves problem of image going beyond top of screen*/
+}
+
+img:hover {
+  transform: scale(2);
+  z-index: 10;
+}
+
+/* Text */
+p {
+  font-size: 18px;
+  max-width: 600px;
+  margin: 20px auto; /* paragraph space */
+  line-height: 1.8;
+  text-align: justify; 
+  color: #333; /* black was too black, this is more of a dark gray */
+}
+
+/* Footer and Link/Button Styles */
+footer {
+  background-color: #4169E1;
+  padding: 40px;
+  color: white;
+  position: relative;
+  bottom: 0;
+  border-top: 5px solid #fa8072; 
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center; 
+}
+
+a.back-button {
+  text-decoration: none;
+  color: white;
+  background-color: #fa8072;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 16px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+a.back-button:hover {
+  background-color: #f08080;
+  transform: scale(1.1);
+}
+
+.footer-buttons {
+  display: flex; 
+  justify-content: space-between; 
+  margin-bottom: 20px; 
+}
+
+.footer-buttons a {
+  flex: 1;
+  margin: 0 10px; 
+}
+
+
+/* SMALLER SCREEN STUFF */
+@media (max-width: 600px) {
+  img:hover {
+      transform: scale(1.2); /* Smaller zoom effect on small screens */
+  }
 }

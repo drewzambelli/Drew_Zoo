@@ -1,5 +1,14 @@
 body {
-  font-family: Courier New;
-  background-color: pink;
+  font-family: 'Courier New', Courier, monospace;
+  background-color: #fa8072; /* light salmon pink */
   text-align: center;
+}
+
+img {
+  width: 300px;
+  height: 300px;
+}
+
+p {
+  font-size: 18px;
 }
