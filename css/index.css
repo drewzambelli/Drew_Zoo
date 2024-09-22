@@ -1,6 +1,6 @@
 /* General styles */
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Poppins', sans-serif;
     background-color: #fa8072; /* salmon pink */
     color: black;
     text-align: center;
@@ -35,7 +35,7 @@ header h1 {
 }
 
 header p {
-    font-family: 'Arial', sans-serif; 
+    font-family: 'Poppins', sans-serif;
     color: black;
     font-size: 1.2em; 
     margin: 10px auto; /* Center */
@@ -51,7 +51,7 @@ header p {
 
 /* Fun styling for 'Meet Our Animals' */
 h2 {
-    font-family: 'Comic Sans MS', cursive, sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 2.5em;
     color: #4169e1;
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
@@ -95,7 +95,7 @@ h2:hover {
 
 /* Styling for animal names */
 .animal h3 {
-    font-family: 'Comic Sans MS', cursive, sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 1.8em; 
     color: #4169e1; /* Royal blue */
     margin: 10px 0; 
