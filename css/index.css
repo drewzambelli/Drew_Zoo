@@ -6,6 +6,9 @@ body {
     text-align: center;
     margin: 0;
     padding: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
 header {
@@ -13,7 +16,14 @@ header {
     color: white;
     padding: 20px;
     text-align: center;
-    border-bottom: 5px solid #fa8072; /* Salmon pink border for contrast */
+    border-bottom: 5px solid #fa8072;
+    width: 100vw;
+    box-sizing: border-box;
+}
+
+main {
+    flex: 1; /*this is key in keeping footer stuck to bottom of page*/
+    padding: 20px;
 }
 
 /* Header text styles */
