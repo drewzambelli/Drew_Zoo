@@ -1,4 +1,6 @@
 # assignment1-zoo
 
 Group member:
-Drew Zambelli: https://github.com/drewzambelli
+Name: Drew Zambelli, Github page: https://github.com/drewzambelli
+Zoo Website: https://drewzambelli.github.io/Drew_Zoo/
+
